@@ -10,5 +10,5 @@ resources:
 - configMap.yaml
 
 images:
-  - name: hseligson/kustomize-sample-app
-    newTag: "v1.0.1"
+  - name: nginx/nginx-ingress
+    newTag: "5.4.3"
