@@ -7,5 +7,5 @@ resources:
 - configMap.yaml
 
 images:
-- name: the-container
+- name: hseligson/kustomize-sample-app
 newTag: 1.0.1
