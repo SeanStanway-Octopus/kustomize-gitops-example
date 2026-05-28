@@ -6,5 +6,5 @@ bases:
 patchesStrategicMerge:
 - config-map.yaml
 images:
-  - name: hseligson/kustomize-sample-app
-    newTag: "1.0.1"
+  - name: nginx/nginx-ingress
+    newTag: "5.4.3"
