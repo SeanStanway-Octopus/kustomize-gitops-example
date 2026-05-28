@@ -5,6 +5,7 @@ resources:
 - deployment.yaml
 - service.yaml
 - configMap.yaml
+- ../../base
 
 images:
 - name: hseligson/kustomize-sample-app
