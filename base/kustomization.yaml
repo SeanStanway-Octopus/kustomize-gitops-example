@@ -11,4 +11,4 @@ resources:
 
 images:
   - name: hseligson/kustomize-sample-app
-    newTag: "latest"
+    newTag: "v1.0.1"
