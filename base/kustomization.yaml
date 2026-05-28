@@ -6,6 +6,6 @@ resources:
 - service.yaml
 - configMap.yaml
 
-containers:
-- name: the-container
-newTag: 1.0.1
+images:
+  - name: the-container
+    newTag: 1.0.1
