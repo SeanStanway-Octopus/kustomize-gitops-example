@@ -4,10 +4,11 @@ resources:
 - namespace.yaml
 - deployment.yaml
 - serviceaccount.yaml
-- clusterrole.yaml        # ← Add these
+- clusterrole.yaml        
 - clusterrolebinding.yaml
 - role.yaml
 - rolebinding.yaml
+- ingressclass.yaml
 commonLabels:
   app.kubernetes.io/part-of: nginx-ingress
 images:
