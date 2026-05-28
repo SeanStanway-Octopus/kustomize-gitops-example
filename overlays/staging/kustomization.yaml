@@ -5,3 +5,6 @@ bases:
 - ../../base
 patchesStrategicMerge:
 - config-map.yaml
+images:
+  - name: hseligson/kustomize-sample-app
+    newTag: "v1.0.2"
