@@ -1,3 +1,4 @@
+kind: Kustomization
 namePrefix: staging-
 commonLabels:
   variant: staging
